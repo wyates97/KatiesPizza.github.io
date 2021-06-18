@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | Katie's Pizza</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="headerContainer">
+            <div class="logoContainer">
+                <a href='index.html'>
+                    <img class='logo' src='images/katies_logo.png' alt='Katies Pizza Logo'/>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Store Introduction/Number -->
+        <section class='section1'>
+            <h1>Serving Gahanna For Over 30 Years <br>614 - 471 - 7576</h1>
+            <img class='cards' src='images/cards.png' alt='Payment Methods' />
+            <h3>Carryout - Delivery<br>$2.00 Delivery Charge</h3>
+        </section>
+        <!-- Current Specials -->
+        <section class='section2'>
+            <h2>Current Specials</h2>
+            <ul>
+                <li>Large One Item PIZZA only $12.99</li>
+                <li>FREE 6-PACK OF PEPSI when you buy a Large 3-Item PIZZA at Regular Price</li>
+                <li>Two Large 1-Item PIZZAS $23.99</li>
+                <li>$1.50 Off Any Large Pizza</li>
+                <li>Large 1-Item Pizza & 2 Subs $23.99</li>
+                <li>3 Italian Subs only $16.99</li>
+            </ul>
+        </section>
+        <!-- Filter Buttons -->
+        <section class='section3'>
+            <div class="btn-container">
+                <button class='filter-btn' type='button' data-id='all'>all</button>
+                <button class='filter-btn' type='button' data-id='pizzas'>pizzas</button>
+                <button class='filter-btn' type='button' data-id='wings'>wings</button>
+                <button class='filter-btn' type='button' data-id='salads'>salads</button>
+                <button class='filter-btn' type='button' data-id='subs'>subs</button>
+                <button class='filter-btn' type='button' data-id='breads'>breads</button>
+                <button class='filter-btn' type='button' data-id='beverages'>beverages</button>
+            </div>
+            <!-- Menu Items -->
+            <div class="section-center">
+                <!-- Single item -->
+                <article class='menu-item'>
+                    <div class="item-info">
+                        <header>
+                            <h4>works pizza</h4>
+                            <h4 class='price'>Pers. $5.99</h4>
+                            <h4 class='price'>Sm. $10.99</h4>
+                            <h4 class='price'>Md. $13.99</h4>
+                            <h4 class='price'>Lg. $16.99</h4>
+                        </header>
+                        <p class="item-text">Pepperoni, Sausage, Onions, Green Peppers, Mushrooms</p>
+                    </div>
+                </article>
+                <!-- End of single item -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Store Hours and Address -->
+        <div class="footerContainer">
+            <div class="storeHours">
+                <h2>Hours</h2>
+                <ul>
+                    <li>Mon-Thur 10AM - Midnight</li>
+                    <li>Friday 10AM - 1:30AM</li>
+                    <li>Saturday 11AM - 1:30AM</li>
+                    <li>Sunday 11AM - Midnight</li>
+                </ul>
+            </div>
+            <div class="storeAddress">
+                <h2>Address</h2>
+                <p>78 North Hamilton Rd (Gahanna Square)</p>
+            </div>
+        </div>
+        <div class="copyrights">
+            <p>© 2021 www.katiespizza.com</p>
+        </div>
+    </footer>
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
